@@ -1,7 +1,7 @@
-public class EulerThree{
+public class Euler003 {
 	
 	public static void main(String[] args){
-		new EulerThree().run();
+		new Euler003().run();
 	}
 	
 	public void run(){

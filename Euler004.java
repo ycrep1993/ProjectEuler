@@ -1,10 +1,9 @@
-import java.util.*;
 import java.lang.*;
 
-public class EulerFour{
+public class Euler004 {
 	
 	public static void main(String[] args){
-		new EulerFour().run();
+		new Euler004().run();
 	}
 	
 	public void run(){
