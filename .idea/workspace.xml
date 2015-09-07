@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fcc2581-42c3-4ccc-9f03-287e5a41724f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler009.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Euler010.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ProjectEuler.iws" />
@@ -30,16 +30,39 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="e#107#108#0" expanded="false" />
+                <element signature="e#143#144#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Euler009.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Euler009.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Euler009.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Euler009.java">
+      <file leaf-file-name="Euler007.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Euler007.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="13" selection-start-line="26" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Euler010.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Euler010.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
               <folding>
                 <element signature="e#107#108#0" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
@@ -81,6 +104,7 @@
         <option value="$PROJECT_DIR$/Euler007.java" />
         <option value="$PROJECT_DIR$/Euler008.java" />
         <option value="$PROJECT_DIR$/Euler009.java" />
+        <option value="$PROJECT_DIR$/Euler010.java" />
       </list>
     </option>
   </component>
@@ -116,8 +140,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -138,7 +160,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -147,22 +171,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Euler009">
-    <configuration default="false" name="Euler005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Euler005" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ProjectEuler" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Euler010">
     <configuration default="false" name="Euler006" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Euler006" />
@@ -211,6 +220,21 @@
     <configuration default="false" name="Euler009" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Euler009" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ProjectEuler" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Euler010" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Euler010" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -371,19 +395,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Euler005" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Euler006" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Euler007" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Euler008" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Euler009" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Euler006" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Euler007" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Euler008" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Euler009" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Euler010" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Euler009" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Euler008" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Euler007" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Euler006" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Euler005" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Euler010" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Euler009" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Euler008" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Euler007" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Euler006" />
       </list>
     </recent_temporary>
   </component>
@@ -471,12 +495,15 @@
     <entry file="file://$PROJECT_DIR$/Euler008.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#107#108#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Euler008.java">
+    <entry file="file://$PROJECT_DIR$/Euler009.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -488,7 +515,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#107#108#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -496,7 +526,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#107#108#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler008.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#107#108#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler008.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#107#108#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -637,13 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Euler007.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08037094">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -651,14 +699,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
+          <folding>
+            <element signature="e#107#108#0" expanded="false" />
+            <element signature="e#143#144#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Euler009.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler007.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="13" selection-start-line="26" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler010.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
           <folding>
             <element signature="e#107#108#0" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
