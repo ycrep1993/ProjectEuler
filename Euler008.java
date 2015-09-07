@@ -30,18 +30,18 @@ public class Euler008 {
 
         String subString = "";
 
-        int uitkomst = 0;
-        int berekening = 0;
+        long uitkomst = 0;
+        long berekening = 1;
 
         for(int i = 0; i <= 1000; i++){
-            subString = invoer.substring(i,13+i);
-            berekening = Integer.parseInt(subString.substring(0, 1));
-            for(int n = 1; n <= 12; n++){
-                berekening = berekening * Integer.parseInt(subString.substring(n,n+1));
+            subString = invoer.substring(i, 13 + i);
+            for(int n = 0; n < 13; n++){
+                berekening = berekening * Long.parseLong(subString.substring(n, n + 1));
             }
             if(berekening > uitkomst){
                 uitkomst = berekening;
             }
+            berekening = 1;
         }
         System.out.println(uitkomst);
     }
