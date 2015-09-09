@@ -20,7 +20,7 @@ public class Euler010 {
     }
 
     public boolean isPrime(int number){
-        for(int i = 3; i < number; i+= 2){
+       for(int i = 3; i < number; i+= 2){
             //System.out.println("isprime");
             if(number % i == 0){
                 return false;
