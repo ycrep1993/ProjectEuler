@@ -35,29 +35,83 @@ public class Euler011 {
         int product = 0;
 
         //create array
-        int[] array = new int[400];
+        int[][] array = new int[20][20];
+        int getallenteller = 0;
 
         //fill array
-        for(int i=0; i<400; i++){
-            array[i] = Integer.parseInt(grid.substring(2*i, 2*i+2));
-        }
-
-        //horizontaal
-        for(int i = 0; i < 20; i++){
-            for(int n = 0; n < 17; n++){
-                product = array[n+(i*20)] * array[(n+1)+(i*20)] * array[(n+2)+(i*20)] * array[(n+3)+(i*20)];
-                if(product > antwoord) {
-                    antwoord = product;
-                }
+        for(int i=0; i < 20; i++){
+            for(int j=0; j < 20;j++){
+                array[i][j] = Integer.parseInt(grid.substring(getallenteller,getallenteller+2));
+                getallenteller += 2;
             }
         }
 
-        //verticaal
+        System.out.println("Horizontaal = " + horizontal(array));
+        System.out.println("Verticaal = " + vertical(array));
+        System.out.println("Diagonaal = " + diagonal(array));
+
+
+
+
+        //System.out.println("Het grootste product = " + antwoord);
+    }
+
+    /**
+     * Get the highest horizontal value of 4 numbers
+     * @param array - 2 dimensional int array filled with grid
+     * @return Highest product of 4 horizontal numbers
+     */
+    public int horizontal(int[][] array){
+        int max = 0;
+        int temp = 0;
         for(int i = 0; i < 20; i++){
-            for(int n = 0; n < 17; n++){
-                //i fail for now System.out.println(array[(2*i)+(20*n)] + " " + array[(2*i)+(20*n)+n+1] + " " + array[(2*i)+(20*n)+n+2] + " " + array[(2*i)+(20*n)+n+3]);
+            for(int j = 0; j < 17; j++){
+                temp = array[i][j] * array[i][j+1] * array[i][j+2] * array[i][j+3];
+                if(temp>max) max = temp;
             }
         }
-        System.out.println("Het grootste product horizontaal = " + antwoord);
+        return max;
+    }
+
+    /**
+     * Get the highest horizontal value of 4 numbers
+     * @param array - 2 dimensional int array filled with grid
+     * @return Highest product of 4 vertical numbers
+     */
+    public int vertical(int[][] array){
+        int max = 0;
+        int temp = 0;
+        for(int i = 0; i < 17; i++){
+            for(int j = 0; j < 20; j++){
+                temp = array[i][j] * array[i+1][j] * array[i+2][j] * array[i+3][j];
+                if(temp > max) max = temp;
+            }
+        }
+        return max;
+    }
+
+    /**
+     * Highest diagonal product in both ways
+     * @param array - the array filled with the grid
+     * @return Highest product
+     */
+    public int diagonal(int[][] array){
+        int max = 0;
+        int temp = 0;
+
+        for(int i = 0; i < 17; i++){
+            for(int j = 0; j < 17; j++){
+                temp = array[i][j] * array[i+1][j+1] * array[i+2][j+2] * array[i+3][j+3];
+                if(temp > max) max = temp;
+            }
+        }
+
+        for(int i = 0; i < 17; i++){
+            for(int j = 3; j < 20; j++){
+                temp = array[i][j] * array[i+1][j-1] * array[i+2][j-2] * array[i+3][j-3];
+                if(temp > max) max = temp;
+            }
+        }
+        return max;
     }
 }
